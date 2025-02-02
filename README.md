@@ -1,3 +1,5 @@
+(c) 2025 Lin Honghan
+
 # VMwork Virtual Machine Manager
 
 ## 📖 中文说明
@@ -54,15 +56,20 @@ VMwork 是一款基于Windows的虚拟机模拟器，提供图形化界面管理
 ### 代码结构
 src/
 ├── GUI/ # 图形界面模块
+
 ├── VM/ # 虚拟机核心
+
 │ ├── BIOS/ # 中断模拟
+
 │ └── Parser/ # 指令解析
+
 ├── config/ # 配置管理
+
 └── tools/ # 反编译工具
 
 ### 问题反馈
-提交Issue至[项目仓库](https://github.com/xxx/VMwork)  
-或联系：techsupport@vmwork.com
+提交Issue至[项目仓库](https://github.com/linhhanpy/VMwork)  
+或联系：lhh_88888888@qq.com
 
 ---
 
@@ -119,9 +126,15 @@ VMwork is a Windows-based virtual machine emulator with GUI management. Supports
 
 ### Code Structure
 src/
+
 ├── GUI/ # Graphical Interface
+
 ├── VM/ # VM Core
+
 │ ├── BIOS/ # Interrupt Emulation
+
 │ └── Parser/ # Instruction Parsing
+
 ├── config/ # Configuration
+
 └── tools/ # Disassembly Tools
