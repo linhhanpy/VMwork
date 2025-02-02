@@ -1,4 +1,4 @@
-(c) 2025 Lin Honghan
+###(c) 2025 Lin Honghan
 
 # VMwork Virtual Machine Manager
 
@@ -17,9 +17,8 @@ VMwork 是一款基于Windows的虚拟机模拟器，提供图形化界面管理
 - 🎨 彩色控制台输出支持
 
 ### 运行要求
-- Windows 7+
-- Visual C++ 运行时库
-- 支持OpenGL的显卡
+- Windows 7+ (或Linux)
+- C/C++ 运行时库
 - 管理员权限(部分功能需要)
 
 ### 安装使用
@@ -54,7 +53,7 @@ VMwork 是一款基于Windows的虚拟机模拟器，提供图形化界面管理
 ⚠️ 需要保留同目录工具程序
 
 ### 代码结构
-src/
+main.cpp
 ├── GUI/ # 图形界面模块
 
 ├── VM/ # 虚拟机核心
@@ -88,9 +87,8 @@ VMwork is a Windows-based virtual machine emulator with GUI management. Supports
 - 🎨 Color Console Output Support
 
 ### System Requirements
-- Windows 7+
-- Visual C++ Redistributable
-- OpenGL-capable GPU
+- Windows 7+ (or Linux)
+- C/C++ Redistributable
 - Administrator Privileges (for certain features)
 
 ### Installation
@@ -125,7 +123,7 @@ VMwork is a Windows-based virtual machine emulator with GUI management. Supports
 ⚠️ Keep tool files in same directory
 
 ### Code Structure
-src/
+main.cpp
 
 ├── GUI/ # Graphical Interface
 
